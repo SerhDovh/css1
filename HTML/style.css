@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body 
+{background-color: #f1f1f1;
+color: #0f141e;
+
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+
+}
+  
+    
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;}
+a:visited{ 
+    color: blue}
+a:active {
+    color: #f1f1f1;}
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+
+/*img.avatar { 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+
+.info {
+
+    display: flex;
+    margin-bottom: 20 px;
+}
+
+@media (max-width: 700px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px ;
+}        
+/*.info h1 {
+    text-align: center;
+}*/
+
+.info p {
+    color: #868988;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform:uppercase */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 42px; */
+    }
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}    
+.card {
+    background: red;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+/*.social {
+    background: pink;
+    padding: 15px;
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 20px;
+    margin: 20px;
+}*/
+/*.box-model > div{
+float: left;
+background: #000;
+height: 200px; 
+border: 4px solid green;
+width: 25%; 
+box-sizing: border-box;  
+    
+}*/
+
+.bg-yellow {
+    background: #fff9dc;
+    margin-top: 20px;
+}
+    
+.bg-green {
+    background: #e5ffe7;}
+    
+.bg-red {
+    background: #ffe5e7;}
+.card h2 {
+    margin-bottom: 10px;
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #868988;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {    
+    padding: 10px;
+}
+.table td:nth-child(2)
+,.table td:nth-child(3) {
+   color: #86898f;    
+}
+.link-list{
+    padding: 0px 20px;
+}
+
+.link-list li {
+    margin: 0;
+	padding: 10px 0px 10px 60px;
+	list-style: none;
+	background-image: url(https://media.lpgenerator.ru/uploads/2019/02/15/1.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;
+
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.form-group input,
+.form-group textarea{
+    width: 100% ;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: #000;
+    padding: 15px 20px;
+    color: #fff ;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/*Position*/
+/*.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}*/
+
+.box {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top:200px;
+    right:250px;
+    background-image: url(https://avatanplus.com/files/resources/mid/56d17ad682a631532247d607.png);
+    background-size: 50px;
+    border-radius: 50%;
+}
+.box a{
+    display: block;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+@media (max-width: 700px){
+    .box {
+        display: block;
+        top: 50px;
+        right: 50px;
+    }
+}
